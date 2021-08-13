@@ -1,0 +1,50 @@
+Working and staging
+
+- git init  (Start)
+
+- git config (Add username and email ID)
+	
+	-- git config --global user.name Pardeep Singh
+
+	-- git config --global user.email pardeepsinghbatth@gmail.com
+
+	--	git config --global user.name
+
+	--	git config --global user.email
+
+- git status 
+
+- git add index.html (Add specific file)
+
+- git add -A (Add all files)
+
+- touch index2.html (Create new file)
+
+- git commit -m "Initial commit"  (Commit with direct comment)
+
+- git checkout js/custom.js (Download specific file from last commit)
+
+- git checkout -f (Download all files from last commit)
+
+- git log (Get log)
+
+- git log -p -2 (Get log upto specif count)
+
+- git diff  (Working vs Staging)
+
+- q (Quit diff output)
+
+- git commit -a -m "Commit without adding files"
+
+- git rm --cached extra.html (remove file from cache)
+
+- git rm extra.html (Removed from both)
+
+- git status -s
+
+- touch .gitignore
+
+- git remote (get connections)
+
+- git remote -v
+
